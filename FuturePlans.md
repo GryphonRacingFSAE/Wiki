@@ -8,3 +8,13 @@
     - Add accelerometer & GPS
 - `SMB`
     - Reduce components on board?
+- `BSPD`
+    - Move to github
+    - Add indicator lights for all statuses
+    - Reduce footprint by 75%
+    - Remove trimming pots for detection of short or open circuit
+- `Custom ST-Link`
+    - Use stm32 or smth
+- `Shop Monitor `
+    - Discord bot for shop-open messages
+    - Cameras in shop (Prevent misuse)
