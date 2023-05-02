@@ -6,15 +6,36 @@
     - Include Power supply on custom PCB
 - `VCU`
     - Add accelerometer & GPS
+    - Move to custom STM32 based board instead of Nucleo
+    - Move to Github
+        - Diffs on PCBs
 - `SMB`
     - Reduce components on board?
+    - Move to Github
+        - Diffs on PCBs
 - `BSPD`
     - Move to github
     - Add indicator lights for all statuses
     - Reduce footprint by 75%
     - Remove trimming pots for detection of short or open circuit
+    - Move to Github
+        - Diffs on PCBs
+- `Tractive Board`
+    - Move to Github
+        - Diffs on PCBs
+- `Shutdown/Power Distribution Board`
+    - Indicator LEDs
+    - Move to Github
+        - Diffs on PCBs
 - `Custom ST-Link`
     - Use stm32 or smth
-- `Shop Monitor `
+- `Gryphon Racing Website`
+    - We should move this to a custom website, and update and make it prettier
+- `Shop Monitor`
     - Discord bot for shop-open messages
     - Cameras in shop (Prevent misuse)
+- `Shop Server`
+    - Some sort of self-hosted server to run items on
+    - Discord Bots can only be hosted on one server unless sharding is used, which is only available on 2000+ server bots (obviously not applicable)
+        - Thus we should self-host the bot, and use an HTTP server to communicate with it from multiple sources
+    - Artifactory CE for Conan for the Dash (only use currently)
