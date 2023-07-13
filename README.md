@@ -44,6 +44,13 @@ int camelCase() {};
 int snake_case = 0;
 ```
 
+#### TypeScript
+```TypeScript
+class CamelCase {};
+function camelCase {}
+let cancelCase: int = 0;
+```
+
 ### Formatting
 
 #### C & C++
@@ -52,3 +59,7 @@ Formatting is handled by clang format.
 ```bash
 find ./src -iname *.hpp -o -iname *.cpp | xargs clang-format -i # In the root folder of the repo.
 ```
+
+#### TypeScript
+
+All formatting is handled by eslint + prettier. To find the proper eslint and prettier formatting configuration files, see: https://github.com/GryphonRacingFSAE/Discord-Bot
