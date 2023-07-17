@@ -46,9 +46,9 @@ int snake_case = 0;
 
 #### TypeScript
 ```TypeScript
-class CamelCase {};
+class PascalCase {};
 function camelCase {}
-let cancelCase: int = 0;
+let snakeCase: int = 0;
 ```
 
 ### Formatting
