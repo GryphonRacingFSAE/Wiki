@@ -39,6 +39,18 @@ def snake_case(snake_case):
 snake_case = 0
 ```
 
+### Rust
+```rust
+struct PascalCase {};
+enum PascalCase {
+    PascalCase1,
+    PascalCase2
+};
+trait PascalCase {};
+fn snake_case(snake_case: snake_case) -> snake_case {};
+let snake_case: PascalCase = ...;
+```
+
 ## Formatting
 
 ### C & C++
@@ -77,4 +89,12 @@ Formatting is handled by [black](https://github.com/psf/black). The configuratio
 To run black command line:
 ```bash
 black .
+```
+
+
+### Rust
+All formatting should be handled by [rustfmt](https://github.com/rust-lang/rustfmt). Formatting file can be found [here](./rustfmt.toml)
+Running this command will apply formatting onto the working directory:
+```rust
+cargo fmt
 ```
