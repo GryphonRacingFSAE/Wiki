@@ -25,6 +25,11 @@ type PascalCase = {
 };
 function camelCase(snake_case: number) {}
 let snake_case: number = 0;
+
+// Prefer:
+function myFunction() {}
+// Instead of:
+const myFunction = () => {};
 ```
 
 ### Python
