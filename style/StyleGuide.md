@@ -62,7 +62,7 @@ All formatting is handled by [eslint](https://eslint.org/) + [prettier](https://
 To run eslint/prettier command line:
 ```bash
 eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --ignore-path .gitignore --fix
-```z`
+```
 
 
 ### Python
