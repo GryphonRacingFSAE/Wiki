@@ -47,7 +47,9 @@ enum PascalCase {
     PascalCase2
 };
 trait PascalCase {};
-fn snake_case(snake_case: snake_case) -> snake_case {};
+fn snake_case(snake_case: PascalCase) -> PascalCase {
+	return snake_case; // Explicit returns only
+};
 let snake_case: PascalCase = ...;
 ```
 
