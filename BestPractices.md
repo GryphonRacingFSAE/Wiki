@@ -22,7 +22,7 @@ The `unwrap()` method should be avoided.
 In safety critical applications, a race car for
 example, we should handle all errors. Using `unwrap`
 throws a [panic](https://doc.rust-lang.org/std/macro.panic.html)
-and crashes the program.
+and crashes the program. Alternatives include `unwrap_or()` or `unwrap_or_else()`.
 
 #### 2. Composition over inheritance
 Prefer composing objects rather than inheriting them.
