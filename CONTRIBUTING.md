@@ -31,4 +31,4 @@ int main() {
 
 ## Final notes
 
-Please read through our [coding standards](./CodingStandards.md) and our [style guide](./style/StyleGuide.md).
+Please read through our [coding standards](./CodingStandards.md) and our [style guide](./StyleGuide.md).
